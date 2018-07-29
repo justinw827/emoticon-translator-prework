@@ -16,7 +16,6 @@ describe "#load_library" do
 
     it "has two keys, 'get_meaning' and 'get_emoticon'" do
       ["get_emoticon", "get_meaning"].each { |key| expect(result.keys).to include(key) }
-      binding.pry
       expect(result.keys.length).to eq(2)
     end
 
