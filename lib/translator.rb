@@ -3,7 +3,6 @@ require "yaml"
 emotes = YAML.load_file('emoticons.yml')
 
 def load_library(path)
-  emotes
   binding.pry
 end
 
