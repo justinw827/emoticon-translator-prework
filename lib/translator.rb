@@ -10,7 +10,7 @@ def load_library(path)
     myEmotes["get_emoticon"][val[0]] = val[1]
     #binding.pry
   end
-  binding.pry
+  #binding.pry
   return myEmotes
 end
 
