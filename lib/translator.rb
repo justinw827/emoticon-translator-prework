@@ -6,6 +6,7 @@ def load_library(path)
 
   myEmotes = {"get_meaning" => {}, "get_emoticon" => {}}
   emotes.each do |key, val|
+    myEmotes["get_meaning"] = {val[1] => key}
     binding.pry
   end
 end
