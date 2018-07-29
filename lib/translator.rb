@@ -8,7 +8,7 @@ def load_library(path)
   emotes.each do |key, val|
     myEmotes["get_meaning"] = {val[1] => key}
     myEmotes["get_emoticon"] = {val[0] => val[1]}
-    binding.pry
+    #binding.pry
   end
 
   return myEmotes
