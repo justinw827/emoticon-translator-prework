@@ -1,4 +1,5 @@
 require 'pry'
+
 require "yaml"
 emotes = YAML.load_file('emoticons.yml')
 
