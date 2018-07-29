@@ -13,7 +13,8 @@ def load_library(path)
 end
 
 def get_japanese_emoticon(path, emote)
-  
+  myEmotes = load_library(path)
+  jEmote = myEmotes["get_emoticon"][emote]
 end
 
 def get_english_meaning
